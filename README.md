@@ -20,6 +20,7 @@ furigana, meanings and deinflection. User documentation: `yomi/README.txt`.
 | `utils/restart_ks.ps1` | The same for Katawa Shoujo, found in your Steam libraries (or pass `-Root`) |
 | `utils/gamectl.ps1` | Drives a game window for manual checks: focus, mouse, keys, screenshots |
 | `tests/` | Tests of everything in `yomi_core.py` and the build; see below |
+| `YOMI_NOTES.md` | How the mod was built: decisions, problems, lessons for porting it |
 | `sdk/` | Ren'Py 7.8.7 / 8.5.3 SDKs and The Question test copies |
 
 ## How it works

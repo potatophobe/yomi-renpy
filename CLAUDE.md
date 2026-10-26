@@ -1,0 +1,1 @@
+Notes of the work already made: @YOMI_NOTES.md
