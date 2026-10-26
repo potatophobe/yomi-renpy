@@ -1,0 +1,15 @@
+Yomi - hover dictionary for Ren'Py
+
+Dictionary data
+  JMdict (https://www.edrdg.org/jmdict/j_jmdict.html) is the property of the
+  Electronic Dictionary Research and Development Group, used in conformance
+  with the Group's licence (CC BY-SA 4.0):
+  https://www.edrdg.org/edrdg/licence.html
+
+Furigana data
+  JmdictFurigana (https://github.com/Doublevil/JmdictFurigana), CC BY-SA 4.0,
+  derived from JMdict.
+
+Font
+  Noto Sans JP (https://github.com/notofonts/noto-cjk), SIL Open Font
+  License 1.1 - see fonts/OFL.txt.
