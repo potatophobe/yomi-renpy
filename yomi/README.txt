@@ -58,5 +58,6 @@ Troubleshooting
 
 Credits and licenses
 --------------------
-See LICENSES.txt. Dictionary: JMdict (EDRDG, CC BY-SA 4.0); furigana:
-JmdictFurigana (CC BY-SA 4.0); font: Noto Sans JP (SIL OFL 1.1).
+See LICENSES.txt. Yomi's code: MIT License, (c) 2026 potatophobe.
+Dictionary: JMdict (EDRDG, CC BY-SA 4.0); furigana: JmdictFurigana
+(CC BY-SA 4.0); font: Noto Sans JP (SIL OFL 1.1).

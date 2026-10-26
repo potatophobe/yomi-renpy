@@ -1,15 +1,44 @@
 Yomi - hover dictionary for Ren'Py
 
-Dictionary data
-  JMdict (https://www.edrdg.org/jmdict/j_jmdict.html) is the property of the
-  Electronic Dictionary Research and Development Group, used in conformance
-  with the Group's licence (CC BY-SA 4.0):
-  https://www.edrdg.org/edrdg/licence.html
+Yomi's code
+  The code (yomi.rpy, yomi_core.py, yomi_renpy.py) is released under the
+  MIT License below. The dictionary data and the font are not; they keep
+  their own licenses, listed after it.
 
-Furigana data
+MIT License
+
+Copyright (c) 2026 potatophobe
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Dictionary data (data/)
+  Built from JMdict (https://www.edrdg.org/jmdict/j_jmdict.html), the
+  property of the Electronic Dictionary Research and Development Group,
+  used in conformance with the Group's licence (CC BY-SA 4.0):
+  https://www.edrdg.org/edrdg/licence.html
+  As a derived work, the data in data/ is itself licensed under
+  CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
+
+Furigana data (part of data/)
   JmdictFurigana (https://github.com/Doublevil/JmdictFurigana), CC BY-SA 4.0,
   derived from JMdict.
 
-Font
+Font (fonts/)
   Noto Sans JP (https://github.com/notofonts/noto-cjk), SIL Open Font
   License 1.1 - see fonts/OFL.txt.

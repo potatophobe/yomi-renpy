@@ -87,3 +87,18 @@ PYTHONHOME="$KS/lib/windows-i686" PYTHONPATH="$KS/lib/windows-i686/Lib;$KS/lib/p
 The Ren'Py side (`yomi_renpy.py`: hit testing, the card, keys) has no
 automated tests; check it in a game with `utils/restart_game.ps1` and
 `utils/gamectl.ps1`.
+
+## License
+
+The code (the mod in `yomi/`, `utils/` and `tests/`) is under the MIT
+License, see `LICENSE`. The rest keeps its own license:
+
+* `yomi/data/` is built from JMdict and JmdictFurigana, so it is under
+  CC BY-SA 4.0 like them.
+* `yomi/fonts/` holds Noto Sans JP, under the SIL Open Font License 1.1.
+* `assets/` holds the unmodified downloads the build uses: JMdict and
+  JmdictFurigana (CC BY-SA 4.0) and Noto Sans JP (SIL OFL 1.1, see
+  `assets/fonts/LICENSE`).
+
+`yomi/LICENSES.txt`, which ships with the mod, repeats the MIT text and lists
+these; `tests/test_mod_files.py` checks that its MIT text matches `LICENSE`.
