@@ -15,7 +15,7 @@ furigana, meanings and deinflection. User documentation: `yomi/README.txt`.
 | `yomi/data/` | Built dictionary (generated) |
 | `utils/build_dict.py` | Builds `yomi/data/` from the sources in `assets/` |
 | `utils/deploy.sh` | Copies the mod into a game: `utils/deploy.sh "<game root>"` |
-| `utils/package.sh` | Builds `dist/yomi-<version>.zip` |
+| `utils/package.sh` | Builds `dist/yomi-renpy-<version>.zip` |
 | `utils/restart_game.ps1` | Deploys the mod to a game and restarts it, waiting until the mod has loaded |
 | `utils/restart_ks.ps1` | The same for Katawa Shoujo, found in your Steam libraries (or pass `-Root`) |
 | `utils/gamectl.ps1` | Drives a game window for manual checks: focus, mouse, keys, screenshots |

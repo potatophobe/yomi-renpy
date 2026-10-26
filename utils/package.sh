@@ -1,12 +1,13 @@
 #!/bin/sh
-# Builds dist/yomi-<version>.zip containing the "yomi" folder to drop into game/.
+# Builds dist/yomi-renpy-<version>.zip containing the "yomi" folder to drop
+# into game/ (the folder keeps the name the mod's code expects).
 # Usage: utils/package.sh [version]
 # Runs in Git Bash, WSL or Linux; needs Python (as python or python3).
 set -e
 HERE="$(cd "$(dirname "$0")/.." && pwd)"
 VERSION="${1:-0.1}"
 STAGE="$HERE/dist/stage"
-OUT="$HERE/dist/yomi-$VERSION.zip"
+OUT="$HERE/dist/yomi-renpy-$VERSION.zip"
 
 # Python is "python" on Windows and "python3" on most Linux systems (WSL
 # included). Each candidate is tried, because Windows can have a "python3"
